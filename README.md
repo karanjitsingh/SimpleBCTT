@@ -2,10 +2,8 @@
 
 ## Installation
 
-
 Install [node v14](https://nodejs.org/en/).<br/>
 Install the node packages with `npm install`.
-
 
 ### Run server
 Run server with `node ./scripts/server.js`. Server will be hosted on `http://localhost:3000`.
@@ -18,3 +16,9 @@ Run server with `node ./scripts/server.js`. Server will be hosted on `http://loc
 | POST   | /api/endsession | <pre>{<br>&nbsp;&nbsp;sessionid: &lt;session id&gt;<br>}</pre> | - | End BCTT session. |
 | POST   | /api/pushdata | <pre>{<br>&nbsp;&nbsp;data: [&lt;heart rate&gt;]<br>&nbsp;&nbsp;timestamp: [&lt;utc timestamp&gt;]<br>}</pre> | - | Push heart rate data. `data` and `timestamp` parameters expect json arrays of respective data. |
 
+---------------
+
+## Preview
+
+![img](https://i.imgur.com/Whmyx1F.png)
+![img](https://i.imgur.com/nhQNyIq.png)
