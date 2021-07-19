@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./scripts/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="./scripts/app.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar-main navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-xl">
+             <a class="navbar-brand" href="#">Buffalo Concussion Treadmill Test</a>
+        </div>
+    </nav>
+
+    <div class="container-xl mb-4 .flex-column" id="session-list">
+        <div style="padding-top: 1rem; padding-left: 1.25rem; margin-bottom:1rem">
+            <h3>Sessions</h3>
+        </div>
+        <div class="session-table">
+            <h5>Ongoing Sessions <span class="badge badge-live">Live</span></h5>
+            <table class="table table-hover" id="table-ongoing" style="margin-top: 0.8rem; margin-bottom: 0.3rem;">
+                <tr>
+                    <th>#</th>
+                    <th>Patient Name</th>
+                    <th>Started</th>
+                    <th>Session ID</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="session-table">
+            <h5>Past Sessions</h5>
+            <table class="table table-hover" id="table-past" style="margin-top: 0.8rem; margin-bottom: 0.3rem;">
+                <tr>
+                    <th>#</th>
+                    <th>Patient Name</th>
+                    <th>Date</th>
+                    <th>Session ID</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="container-xl mb-4 .flex-column" style="opacity: 0;" id="session-data">
+        <div style="padding: 1rem 1.25rem 0 1.25rem;padding-left: 1.25rem;margin-bottom:1rem;display: flex;justify-content: space-between;">
+            <h3 style="margin: 0;" id="pname">Patient Name: John Doe</h3>
+            <button type="button" class="btn-close" id="close-btn" aria-label="Close"></button>
+        </div>
+        <div class="session-table">
+            <div style="display: flex; width: 100%;">
+                <div style="width:18.3em">
+                    <table class="table table-hover" id="table-patient" style="margin-top: 0.8rem;margin-bottom: 0.3rem;text-align: center;">
+                        <tr>
+                            <th>Session</th>
+                            <th>Date</th>
+                        </tr>
+                    </table>
+                </div>
+                <div style="border-left: 1px solid #CCC; margin: 0 30px;"></div>
+                <div style="width: 100%;">
+                    <h4 id="session-num">
+                        <span>Session: 23</span>
+                        <span class="badge badge-live" style="float: right; font-size: 0.89rem">Live</span>
+                        <span class="badge badge-done" style="float: right; font-size: 0.89rem">Done</span>
+                    </h4>
+                    <div id="chart" style="padding: 20px 0; box-sizing: border-box;"></div>
+                    <div style="border-top: 1px solid #CCC; margin: 20px 0px;"></div>
+                    <h4 style="text-align: center;">Assessment</h4>
+
+                    <div id="assessment">
+                        <div id="pre-form"></div>
+                        <table class="table table-hover" id="table-assessment" style="margin-top: 0.8rem;margin-bottom: 0.3rem;text-align: center;">
+    
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

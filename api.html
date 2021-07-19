@@ -1,0 +1,81 @@
+<script>
+    
+    var xhttp = new XMLHttpRequest();
+    
+
+    function handle()
+    {
+        if(xhttp.readyState === 4 && xhttp.status === 200) {
+            document.querySelector("#out").innerHTML = this.responseText.toString().split("\n").join("<br/>");
+        } else if(xhttp.readyState === 4 || xhttp.status === 400) {
+            document.querySelector("#out").innerHTML = 500;
+        }
+    }
+
+    
+    xhttp.onload = handle;
+
+    function createSession()
+    {
+        var text = document.querySelector("#create");
+        if(text.value)
+        {
+
+            xhttp.open("POST", "/api/newsession", true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send(JSON.stringify({
+                name: text.value
+            }));
+        }
+    }
+
+    function endSession()
+    {
+        var id = document.querySelector("#end");
+        if(id.value)
+        {
+            xhttp.open("POST", "/api/endsession", true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send(JSON.stringify({
+                sessionid: id.value
+            }));
+        }
+    }
+
+    function pushData()
+    {
+        var id = document.querySelector("#push");
+        var data = document.querySelector("#data");
+        var time = document.querySelector("#time");
+
+        if(id.value)
+        {
+            xhttp.open("POST", "/api/pushdata", true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send(JSON.stringify({
+                sessionid: id.value,
+                data: JSON.parse(data.value),
+                timestamp: JSON.parse(time.value)
+            }));
+        }
+    }
+</script>
+
+
+<input placeholder="name" type="text" id="create"/>
+<input type="button" value="createSession" onclick="createSession()"/>
+<label id="session"></label>
+<br/>
+
+<input placeholder="session id" type="text" id="end"/>
+<input type="button" value="endSession" onclick="endSession()"/>
+<br/>
+
+<input placeholder="session id" type="text" id="push"/>
+<input placeholder="data" type="text" id="data"/>
+<input placeholder="time" type="text" id="time"/>
+<input type="button" value="push" onclick="pushData()"/>
+<br/>
+
+<label id="out"></label>
+

@@ -1,0 +1,19 @@
+{"sessionid":6,"name":"john doe","start_time":1626668515398,"state":"running","end_time":null,"sessionnumber":3,"last_update":1626670823828,"_id":"ETu1mhMj3CmidJow"}
+{"sessionid":8,"name":"max doe","start_time":1626677759087,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626677759087,"_id":"QlLgZJbvqQot7ME0"}
+{"sessionid":2,"name":"jane doe","start_time":1626668510724,"state":"done","end_time":1626677835543,"sessionnumber":2,"last_update":1626677835553,"_id":"cKTzZwm9IzVCdDNr"}
+{"sessionid":5,"name":"john doe","start_time":1626668515038,"state":"done","end_time":1626676765760,"sessionnumber":2,"last_update":1626676765792,"_id":"ciiNN2IlN7flKIdR"}
+{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"running","end_time":null,"sessionnumber":2,"last_update":1626694485843,"_id":"gkpx25pCT8xF357H"}
+{"sessionid":3,"name":"jane doe","start_time":1626668511474,"state":"done","end_time":1626677870561,"sessionnumber":3,"last_update":1626677870570,"_id":"jNN3iwXMZShaxGnK"}
+{"sessionid":4,"name":"john doe","start_time":1626668514549,"state":"done","end_time":1626678612216,"sessionnumber":1,"last_update":1626678612232,"_id":"lRP63cQ5C6eJLAoL"}
+{"sessionid":10,"name":"max doe","start_time":1626677804854,"state":"done","end_time":1626678867049,"sessionnumber":3,"last_update":1626678867058,"_id":"pVWuu8uqHB3ZKXUK"}
+{"sessionid":7,"name":"john doe","start_time":1626668516492,"state":"done","end_time":1626678901531,"sessionnumber":4,"last_update":1626678901540,"_id":"q3gqdoFPWT6BSPRv"}
+{"sessionid":1,"name":"jane doe","start_time":1626668509744,"state":"done","end_time":1626677812752,"sessionnumber":1,"last_update":1626677812761,"_id":"wlAwSteQJHiuBccJ"}
+{"$$indexCreated":{"fieldName":"sessionid","unique":false,"sparse":false}}
+{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"running","end_time":null,"sessionnumber":2,"last_update":1626694609955,"_id":"gkpx25pCT8xF357H"}
+{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"running","end_time":null,"sessionnumber":2,"last_update":1626694635883,"_id":"gkpx25pCT8xF357H"}
+{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"running","end_time":null,"sessionnumber":2,"last_update":1626694666509,"_id":"gkpx25pCT8xF357H"}
+{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"done","end_time":1626694714938,"sessionnumber":2,"last_update":1626694666509,"_id":"gkpx25pCT8xF357H"}
+{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"done","end_time":1626694714938,"sessionnumber":2,"last_update":1626694714949,"_id":"gkpx25pCT8xF357H"}
+{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"done","end_time":1626694714938,"sessionnumber":2,"last_update":1626695010950,"_id":"gkpx25pCT8xF357H"}
+{"sessionid":8,"name":"max doe","start_time":1626677759087,"state":"done","end_time":1626695035140,"sessionnumber":1,"last_update":1626677759087,"_id":"QlLgZJbvqQot7ME0"}
+{"sessionid":8,"name":"max doe","start_time":1626677759087,"state":"done","end_time":1626695035140,"sessionnumber":1,"last_update":1626695035144,"_id":"QlLgZJbvqQot7ME0"}

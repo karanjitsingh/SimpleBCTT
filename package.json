@@ -1,0 +1,26 @@
+{
+  "name": "simplebctt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karanjitsingh/SimpleBCTT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karanjitsingh/SimpleBCTT/issues"
+  },
+  "homepage": "https://github.com/karanjitsingh/SimpleBCTT#readme",
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "ws": "^7.5.3"
+  }
+}

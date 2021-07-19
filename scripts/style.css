@@ -1,0 +1,78 @@
+.navbar-main
+{
+    padding: 0.7rem 0
+}
+
+.session-table
+{
+    width: 100%;
+    box-shadow: 0px 5px 15px -3px #666666;
+    border-radius: 8px;
+    padding:1.25rem 1.25rem;
+    margin-bottom: 2rem;
+    background: #fff;
+}
+
+body, html
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    background: #f1f1f1;
+}
+
+.badge-live
+{
+    font-size: 0.75rem;
+    top: -0.19rem;
+    position: relative;
+    margin-left: 2px;
+    border: solid 1px #dc3545;
+    color: #dc3545;
+}
+
+.badge-done
+{
+    font-size: 0.75rem;
+    top: -0.19rem;
+    position: relative;
+    margin-left: 2px;
+    border: solid 1px #007bff;
+    color: #007bff;
+    
+}
+
+#assessment td{
+    padding: 0
+}
+
+#assessment td:nth-child(2), #assessment td:nth-child(3){
+    width: 7rem;
+}
+
+
+#assessment th{
+    vertical-align: middle;
+}
+
+
+#assessment th:nth-child(1){
+    width: 4.225rem;
+}
+
+.selectable {
+    cursor: pointer;
+}
+
+#session-list, #session-data {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+input[type="text"]:disabled {
+    background: none;
+    border: 0;
+}
