@@ -1,19 +1,28 @@
-{"sessionid":6,"name":"john doe","start_time":1626668515398,"state":"running","end_time":null,"sessionnumber":3,"last_update":1626670823828,"_id":"ETu1mhMj3CmidJow"}
-{"sessionid":8,"name":"max doe","start_time":1626677759087,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626677759087,"_id":"QlLgZJbvqQot7ME0"}
+{"sessionid":6,"name":"john doe","start_time":1626668515398,"state":"running","end_time":null,"sessionnumber":3,"last_update":1626890070459,"_id":"ETu1mhMj3CmidJow"}
+{"sessionid":8,"name":"max doe","start_time":1626677759087,"state":"done","end_time":1626695035140,"sessionnumber":1,"last_update":1626695035144,"_id":"QlLgZJbvqQot7ME0"}
 {"sessionid":2,"name":"jane doe","start_time":1626668510724,"state":"done","end_time":1626677835543,"sessionnumber":2,"last_update":1626677835553,"_id":"cKTzZwm9IzVCdDNr"}
 {"sessionid":5,"name":"john doe","start_time":1626668515038,"state":"done","end_time":1626676765760,"sessionnumber":2,"last_update":1626676765792,"_id":"ciiNN2IlN7flKIdR"}
-{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"running","end_time":null,"sessionnumber":2,"last_update":1626694485843,"_id":"gkpx25pCT8xF357H"}
+{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"done","end_time":1626694714938,"sessionnumber":2,"last_update":1626695010950,"_id":"gkpx25pCT8xF357H"}
 {"sessionid":3,"name":"jane doe","start_time":1626668511474,"state":"done","end_time":1626677870561,"sessionnumber":3,"last_update":1626677870570,"_id":"jNN3iwXMZShaxGnK"}
 {"sessionid":4,"name":"john doe","start_time":1626668514549,"state":"done","end_time":1626678612216,"sessionnumber":1,"last_update":1626678612232,"_id":"lRP63cQ5C6eJLAoL"}
 {"sessionid":10,"name":"max doe","start_time":1626677804854,"state":"done","end_time":1626678867049,"sessionnumber":3,"last_update":1626678867058,"_id":"pVWuu8uqHB3ZKXUK"}
 {"sessionid":7,"name":"john doe","start_time":1626668516492,"state":"done","end_time":1626678901531,"sessionnumber":4,"last_update":1626678901540,"_id":"q3gqdoFPWT6BSPRv"}
 {"sessionid":1,"name":"jane doe","start_time":1626668509744,"state":"done","end_time":1626677812752,"sessionnumber":1,"last_update":1626677812761,"_id":"wlAwSteQJHiuBccJ"}
 {"$$indexCreated":{"fieldName":"sessionid","unique":false,"sparse":false}}
-{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"running","end_time":null,"sessionnumber":2,"last_update":1626694609955,"_id":"gkpx25pCT8xF357H"}
-{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"running","end_time":null,"sessionnumber":2,"last_update":1626694635883,"_id":"gkpx25pCT8xF357H"}
-{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"running","end_time":null,"sessionnumber":2,"last_update":1626694666509,"_id":"gkpx25pCT8xF357H"}
-{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"done","end_time":1626694714938,"sessionnumber":2,"last_update":1626694666509,"_id":"gkpx25pCT8xF357H"}
-{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"done","end_time":1626694714938,"sessionnumber":2,"last_update":1626694714949,"_id":"gkpx25pCT8xF357H"}
-{"sessionid":9,"name":"max doe","start_time":1626677774294,"state":"done","end_time":1626694714938,"sessionnumber":2,"last_update":1626695010950,"_id":"gkpx25pCT8xF357H"}
-{"sessionid":8,"name":"max doe","start_time":1626677759087,"state":"done","end_time":1626695035140,"sessionnumber":1,"last_update":1626677759087,"_id":"QlLgZJbvqQot7ME0"}
-{"sessionid":8,"name":"max doe","start_time":1626677759087,"state":"done","end_time":1626695035140,"sessionnumber":1,"last_update":1626695035144,"_id":"QlLgZJbvqQot7ME0"}
+{"sessionid":11,"name":"josh","start_time":1626892715151,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626892715151,"_id":"a350IlJTlNtsmdsU"}
+{"sessionid":12,"name":"josh","start_time":1626892741624,"state":"running","end_time":null,"sessionnumber":2,"last_update":1626892741624,"_id":"C8UJtbIxMWhDjlJc"}
+{"sessionid":13,"name":"daniel","start_time":1626892919097,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626892919097,"_id":"X6opCD8BRUM2a93w"}
+{"sessionid":14,"name":"josh1","start_time":1626892955238,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626892955238,"_id":"jbublzVlv0ZhFUTW"}
+{"sessionid":15,"name":"josh2","start_time":1626893397082,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626893397082,"_id":"DD7kqd72CrijkpXf"}
+{"sessionid":16,"name":"josh3","start_time":1626893535220,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626893535220,"_id":"uRGtK3F30y0FTjmr"}
+{"sessionid":17,"name":"josh4","start_time":1626893582469,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626893582469,"_id":"5k8IRiY9I7rsjUDU"}
+{"sessionid":18,"name":"josh5","start_time":1626893688889,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626893688889,"_id":"58LULcR2fk6ehRRn"}
+{"sessionid":19,"name":"josh6","start_time":1626893717542,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626893717542,"_id":"0mjDHLlYVXExC3rc"}
+{"sessionid":20,"name":"josh7","start_time":1626893761173,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626893761173,"_id":"zyOzIXUJOiYmwfOM"}
+{"sessionid":21,"name":"josh8","start_time":1626893811866,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626893811866,"_id":"YJKH92UnS57bDH7r"}
+{"sessionid":22,"name":"josh9","start_time":1626893855731,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626893855731,"_id":"7dZGIXcENIy8uytz"}
+{"sessionid":23,"name":"josh10","start_time":1626893904611,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626893904611,"_id":"orAqUUgDNDku2DNL"}
+{"sessionid":24,"name":"josh11","start_time":1626894857563,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626894857563,"_id":"iuuvLtXupSrG1IZV"}
+{"sessionid":25,"name":"josh12","start_time":1626895034785,"state":"running","end_time":null,"sessionnumber":1,"last_update":1626895034785,"_id":"BkXy79uliwHsrHjS"}
+{"sessionid":11,"name":"josh","start_time":1626892715151,"state":"done","end_time":1626895109774,"sessionnumber":1,"last_update":1626892715151,"_id":"a350IlJTlNtsmdsU"}
+{"sessionid":11,"name":"josh","start_time":1626892715151,"state":"done","end_time":1626895109774,"sessionnumber":1,"last_update":1626895109775,"_id":"a350IlJTlNtsmdsU"}
